@@ -1,0 +1,160 @@
+[
+  {
+    "operation": "TransactionStats",
+    "status": 200
+  },
+  {
+    "operation": "TotalSolde",
+    "status": 200
+  },
+  {
+    "operation": "AllTransactions",
+    "status": 200
+  },
+  {
+    "operation": "AllComptes",
+    "status": 200
+  },
+  {
+    "operation": "SaveCompte",
+    "status": 200
+  },
+  {
+    "operation": "AllComptes",
+    "status": 200
+  },
+  {
+    "operation": "TotalSolde",
+    "status": 200
+  },
+  {
+    "operation": "TransactionStats",
+    "status": 200
+  },
+  {
+    "operation": "AllTransactions",
+    "status": 200
+  },
+  {
+    "createdAccount": {
+      "id": "3",
+      "solde": 1234.5,
+      "type": "EPARGNE"
+    }
+  },
+  {
+    "operation": "AddTransaction",
+    "status": 200
+  },
+  {
+    "operation": "TotalSolde",
+    "status": 200
+  },
+  {
+    "operation": "AllComptes",
+    "status": 200
+  },
+  {
+    "operation": "TransactionStats",
+    "status": 200
+  },
+  {
+    "operation": "AddTransaction",
+    "status": 200
+  },
+  {
+    "operation": "AllTransactions",
+    "status": 200
+  },
+  {
+    "operation": "AddTransaction",
+    "status": 200
+  },
+  {
+    "operation": "AllComptes",
+    "status": 200
+  },
+  {
+    "operation": "TotalSolde",
+    "status": 200
+  },
+  {
+    "operation": "TransactionStats",
+    "status": 200
+  },
+  {
+    "operation": "CompteByType",
+    "status": 200
+  },
+  {
+    "operation": "AllTransactions",
+    "status": 200
+  },
+  {
+    "operation": "CompteTransactions",
+    "status": 200
+  },
+  {
+    "verifiedState": {
+      "compteById": {
+        "id": "3",
+        "solde": 1384.5,
+        "type": "EPARGNE"
+      },
+      "compteTransactions": [
+        {
+          "id": "4",
+          "montant": 250,
+          "type": "DEPOT"
+        },
+        {
+          "id": "5",
+          "montant": 100,
+          "type": "RETRAIT"
+        }
+      ],
+      "totalSolde": {
+        "count": 2,
+        "sum": 3384.5,
+        "average": 1692.25
+      },
+      "transactionStats": {
+        "count": 3,
+        "sumDepots": 750,
+        "sumRetraits": 100
+      }
+    }
+  },
+  {
+    "operation": "DeleteCompte",
+    "status": 200
+  },
+  {
+    "operation": "AllComptes",
+    "status": 200
+  },
+  {
+    "operation": "TotalSolde",
+    "status": 200
+  },
+  {
+    "operation": "CompteByType",
+    "status": 200
+  },
+  {
+    "operation": "TransactionStats",
+    "status": 200
+  },
+  {
+    "operation": "AllTransactions",
+    "status": 200
+  },
+  {
+    "operation": "CompteTransactions",
+    "status": 200
+  },
+  {
+    "verified": "real GraphQL create/filter/deposit/withdrawal/rejected overdraft/history/stats/delete",
+    "capturedAt": "2026-10-15T01:04:26.922Z"
+  }
+]

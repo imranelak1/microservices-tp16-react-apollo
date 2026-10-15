@@ -1,0 +1,40 @@
+{
+  "name": "gestion-comptes",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "3.14.1",
+    "graphql": "16.11.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-scripts": "5.0.1",
+    "@testing-library/react": "14.3.1",
+    "@testing-library/jest-dom": "6.9.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false"
+  },
+  "proxy": "http://localhost:19015",
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

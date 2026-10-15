@@ -1,0 +1,13 @@
+
+> gestion-comptes@1.0.0 test
+> react-scripts test --watchAll=false --runInBand
+
+PASS src/components/CreateCompte.test.js (13.121 s)
+  √ un compte valide est envoyé avec un solde numérique puis le formulaire est vidé (433 ms)
+  √ une erreur GraphQL est présentée et conserve les données à corriger (98 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        18.293 s
+Ran all test suites.
